@@ -4,6 +4,7 @@
 + Brief info 
 + Technology stack
 + About me
++ Code example
 + Contacts
   
 ---
@@ -34,6 +35,28 @@
 Hello everyone, my name is Valery and I am a qualified design engineer in the field of mechanical engineering. Graduated from BSTU "VOENMEH" in the city of St. Petersburg in the field of rocket science. However, since 2022, I have been working hard in the direction of software development. I started to show interest in programming from the 3rd year, modulating simple processes in the Matlab environment. After graduating from the university, I had and still have many programmer friends, so the opportunity to plunge into the IT world often turned up. 
 
 Currently focused on front-end web development. On my own, thanks to YouTube and web tutorials, I studied technologies such as git, ide, css, sass, JS core. In February 2023, I learned about RS school from a friend. I plan to finish the 3rd stage of training in The Rolling Scopes and get a dream job - a job as a web developer, then level up to a full stack. In some future I plan to get a higher education in the field of artificial intelligence. However, this is already quite distant plans ...
+
+---
+
+### Code example
+
+```
+function longestConsec(strarr, k) {
+    if (strarr.length == 0 || k > strarr.length || k < 0) return ``;
+    
+    const arrOfSums = strarr.map( (item, index, arr) => {
+      arr[index] = strarr.slice(index, index + k).join(``);
+      return arr[index];
+    } );
+    
+    let longestString = arrOfSums[0];
+    arrOfSums.forEach( (item) => {
+      longestString = (longestString.length < item.length ) ? item : longestString;
+    } );
+    
+    return longestString
+}
+```
 
 ---
 
