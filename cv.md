@@ -1,4 +1,7 @@
 <div><h1><em> Valeryy Kozhura </em></h1></div>
+<div align="center"><picture>
+ <img alt="avatar" src="https://sun9-east.userapi.com/sun9-58/s/v1/ig2/fvFEqY7y5JIWZQ3PtGP5GIG8xsaF2mUwOhDnXyGLFd0FzTxxKOjIxELN695ksLSmgLKrjVYmg93tf3HdB8g3l27d.jpg?size=1252x1280&quality=96&type=album" width="40%">
+</picture></div>
 
 # Topics
 + Brief info 
@@ -65,6 +68,7 @@ function longestConsec(strarr, k) {
 * Mail: ivsmcrew@gmail.com
 * Telegram: https://t.me/IVS_M
 * VK: https://vk.com/son_of_korzh
+* Github: https://github.com/Ivsmcrew
 
 ---
 
