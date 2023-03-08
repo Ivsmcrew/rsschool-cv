@@ -74,4 +74,4 @@ function longestConsec(strarr, k) {
  <img alt="YOUR-ALT-TEXT" src="https://static-cdn.jtvnw.net/jtv_user_pictures/f316931b-ee90-48fe-8bf5-17845086f0e3-profile_banner-480.png">
 </picture>
 
-> *Колизей — странное место. Одни там бьются насмерть, пока другие за этим наблюдают. В чём смысл этих тёмных обычаев?*
+> *The Colosseum is a strange place. Some fight to the death there while others watch. What is the meaning of these dark customs?*
